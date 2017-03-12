@@ -9,14 +9,14 @@
 
     // if email has not been entered
     if(!$_POST['email']) {
-      $emailError = 'Please enter a valid email adress';
+      $emailError = '<div class="text-danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> &nbsp;Please enter a valid email adress</div>';
     }
 
     if(!$emailError) {
       if (mail ($to, $subject, $body, $from)) {
-        $result = 'Thank you we wi\'ll keep you updated';
+        $result = '<div class="text-success"><i class="fa fa-check" aria-hidden="true"></i> &nbsp;Thank you we wi\'ll keep you updated</div>';
       } else {
-        $result = 'Sorry. There has been an error, please try again.'
+        $result = '<div class="text-danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> &nbsp;Sorry. There has been an error, please try again.</div>'
       }
     }
 
