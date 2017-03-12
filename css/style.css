@@ -6,6 +6,21 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  #logo img {
+    width: 50%;
+  }
+
+  #counter .countdown {
+    font-size: 1.4em !important;
+  }
+
+  #icons .fa {
+    margin: 10px 0 !important;
+    font-size: 2em;
+  }
+}
+
 #logo img {
   padding-top: 20px;
 }
