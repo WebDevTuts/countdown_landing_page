@@ -5,3 +5,7 @@ body {
   -webkit-background-size: cover;
   background-size: cover;
 }
+
+#logo img {
+  padding-top: 20px;
+}
