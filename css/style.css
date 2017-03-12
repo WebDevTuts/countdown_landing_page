@@ -24,3 +24,35 @@ body {
   font-size: 3em;
   margin: -15px 0 0;
 }
+
+#icons {
+  text-align: center;
+}
+
+#icons .fa {
+  color: #fff;
+  margin: 5px 15px;
+  position: relative;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+#icons .twitter:hover {
+  color: #6cadde;
+  bottom: 5px;
+}
+
+#icons .facebook:hover {
+  color: #3b5998;
+  bottom: 5px;
+}
+
+#icons .google-plus:hover {
+  color: #ea4335;
+  bottom: 5px;
+}
+
+#icons .instagram:hover {
+  color: #517fa6;
+  bottom: 5px;
+}
