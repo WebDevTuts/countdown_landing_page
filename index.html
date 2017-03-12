@@ -33,9 +33,31 @@
       </div>
     </section>
 
+    <section id="counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="countdown"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap-min.js"></script>
-  </body>
-  </html>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap-min.js"></script>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="js/jquery.countdown.js"></script>
+
+  <script type="text/javascript">
+    $(function() {
+        $('.countdown').countdown({
+            date: "June 7, 2087 15:03:26"
+        });
+      });
+  </script>
+
+</body>
+</html>
