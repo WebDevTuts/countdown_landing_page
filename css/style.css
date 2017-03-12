@@ -56,3 +56,20 @@ body {
   color: #517fa6;
   bottom: 5px;
 }
+
+#signup {
+  text-align: center;
+}
+
+#signup .form-inline {
+  display: block;
+}
+
+#signup .btn {
+  background-color: rgba(161,186,226,0.5);
+  color: #fff;
+}
+
+#signup .btn:hover {
+  background-color: rgba(37,165,82,1);
+}
